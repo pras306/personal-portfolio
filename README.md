@@ -28,7 +28,7 @@ This is my professional portfolio website
 
 ## How To Use
 
-The website is published at [Personal Portfolio](https://pras306.github.io/image-browser/)
+The website is published at [Personal Portfolio](https://prasanna-sriram.netlify.app/)
 
 Clone the project 
 
@@ -59,6 +59,7 @@ Start the server
 ## API References
 
 - [Email JS](https://www.emailjs.com/)
+- [TS Particles](https://particles.js.org/)
 
 
 [Back To The Top](#personal-portfolio)
@@ -97,5 +98,6 @@ SOFTWARE.
 
 - Github - [pras306](https://github.com/pras306)
 - LinkedIn - [Prasanna Sriram](https://www.linkedin.com/in/prasanna-sriram/)
+- Portfolio - [Personal Portfolio](https://prasanna-sriram.netlify.app/)
 
 [Back To The Top](#personal-portfolio)
