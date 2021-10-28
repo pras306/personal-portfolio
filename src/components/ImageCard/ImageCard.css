@@ -1,0 +1,140 @@
+.ic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--bgc-gradient-yellow-red);
+    border-radius: 25px;
+    padding: 0.75em;
+    margin: 0.5em;
+}
+
+.ic__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 0.3em;
+}
+
+.ic__container__action, .ic__container__view {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em 0;
+}
+
+.ic__container__action__image {
+    width: 200px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.ic__container__action__buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ic__container__action__button {
+    margin: 0 0.5em;
+    padding: 0.5em;
+    font-family: var(--ff-roboto-regular);
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bgc-dark-green);
+    color: var(--bgc-light-green);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    text-decoration: none;
+}
+
+.ic__container__action__button:hover {
+    transform: scale(1.1);
+}
+
+.ic__container__view__title {
+    margin: 0;
+    font-family: var(--ff-roboto-bold);
+    font-weight: bold;
+    align-self: center;
+}
+
+.ic__container__view__content, .ic__container__view__footer {
+    align-self: flex-start;
+}
+
+.ic__container__view__content > h5, .ic__container__view__footer > h5 {
+    margin: 1em 0;
+    font-family: var(--ff-roboto-medium);
+}
+
+.ic__container__view__content > span > p, .ic__container__view__footer > span > p {
+    font-family: var(--ff-roboto-regular);
+}
+
+.modal__image {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 576px) {
+    .modal__image {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ic__container__action__image {
+        width: 300px;
+        height: 200px;
+    }
+
+    .ic__container__view__title {
+        font-size: 1.5rem;
+    }
+
+    .ic__container__view__content > h5, .ic__container__view__footer > h5 {
+        font-size: 1rem;
+    }
+
+    .modal__image {
+        width: 800px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ic__container__action__image {
+        width: 400px;
+        height: 300px;
+    }
+
+    .ic__container__view__title {
+        font-size: 2rem;
+    }
+
+    .modal__image {
+        width: 900px;
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ic__container__action__image {
+        width: 500px;
+        height: 400px;
+    }
+
+    .modal__image {
+        width: 1200px;
+        height: 900px;
+    }
+}

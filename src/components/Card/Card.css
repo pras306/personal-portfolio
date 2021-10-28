@@ -1,0 +1,61 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    min-height: 90%;
+    background: var(--bgc-glass);
+    color: var(--bgc-magenta);
+    backdrop-filter: blur(10px) saturate(180%);
+    border-radius: 10px;
+    padding: 0.5em;
+    transition: transform 0.5s ease;
+    cursor: default;
+}
+
+.card__title {
+    font-family: var(--ff-ubuntu-bold);
+    font-size: 1.2rem;
+    padding: 0.3em;
+}
+
+.card__content {
+    font-family: var(--ff-roboto-regular);
+    padding: 0.3em;
+    width: 100%;
+    font-size: 0.85rem;
+}
+
+.card__content > span > strong {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card__title {
+        font-size: 1.5rem;
+    }
+    
+    .card__content {
+        font-size: 1rem;
+    }
+
+    .card__content > span > strong {
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .card__title {
+        font-size: 2rem;
+    }
+    
+    .card__content {
+        font-size: 1.3rem;
+    }
+
+    .card__content > span > strong {
+        font-size: 1.6rem;
+    }
+}

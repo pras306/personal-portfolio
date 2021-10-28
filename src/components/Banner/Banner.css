@@ -1,0 +1,92 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;    
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 0 0.5em;
+}
+
+.banner__container::before {
+    content: '';
+    position: absolute;
+    width: 15vw;
+    height: 400%;
+    background: var(--bgc-gradient-red-pink);
+    animation: rotator 6s linear infinite;
+}
+
+.banner__container::after {
+    content: '';
+    position: absolute;
+    background-color: var(--bgc-yellow);
+    inset: 4px;
+    border-radius: 16px;
+}
+
+.banner__title {
+    position: relative;
+    z-index: 10;
+    font-family: var(--ff-ubuntu-bold);
+    font-size: 1.1rem;
+    padding: 0.5em;
+    margin: 0 0.5em;
+    color: var(--bgc-black);
+}
+
+.banner__icons {
+    position: relative;
+    z-index: 10;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75em;
+}
+
+.banner__icons > a {
+    margin: 0 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--bgc-black);
+}
+
+@keyframes rotator {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .banner__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__title {
+        font-size: 2.5rem;
+    }
+}
+
+

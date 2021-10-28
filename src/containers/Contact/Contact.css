@@ -1,0 +1,7 @@
+.contact {
+    background-color: var(--bgc-pink);
+    min-width: 60vw;
+    min-height: 40vh;
+    border-radius: 20px;
+    padding: 1.1em;
+}

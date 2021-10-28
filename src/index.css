@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'NEON TUBES';
+  src: url('./assets/fonts/NeonTubes/NeonTubes2.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ROBOTO REGULAR';
+  src: url('./assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ROBOTO MEDIUM';
+  src: url('./assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'UBUNTU BOLD';
+  src: url('./assets/fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ROBOTO BOLD';
+  src: url('./assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+:root{
+  --ff-neon-tubes: "NEON TUBES";
+  --ff-roboto-regular: "ROBOTO REGULAR";
+  --ff-roboto-medium: "ROBOTO MEDIUM";
+  --ff-ubuntu-bold: 'UBUNTU BOLD';
+  --ff-roboto-bold: 'ROBOTO BOLD';
+  --bgc-purple: #3d155f;
+  --bgc-glass: #fff74850;
+  --bgc-transparent-glass: #ffffff80;
+  --bgc-dark-green: #2C5F2D;
+  --bgc-gradient-yellow-red: linear-gradient(315deg, #ffbc00, #ff0058);
+  --bgc-gradient-red-pink: linear-gradient(#ef5455, #f0a07c);
+  --bgc-pink: #df678c;
+  --bgc-light-pink: #f7c5cc;
+  --bgc-red: #cc313d;
+  --bgc-light-yellow: #ccf381;
+  --bgc-magenta: #3c1a5b;
+  --bgc-light-green: #97BC62;
+  --bgc-black: #292826;
+  --bgc-yellow: #f9d342;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
