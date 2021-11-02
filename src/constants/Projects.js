@@ -1,5 +1,6 @@
 import ChatbotMessenger from '../assets/images/chatbot_messenger.png';
 import FaceDetector from '../assets/images/face_detector.png';
+import NetflixClone from '../assets/images/netflix_clone.png';
 import VideoBrowser from '../assets/images/video_browser.png';
 import ImageBrowser from '../assets/images/image_browser.png';
 import Robofriends from '../assets/images/robofriends.png';
@@ -38,6 +39,24 @@ export const PROJECT_DETAILS = [
         footerContent: <span>ReactJS, Clarifai API, Github Pages</span>,
         siteLink: 'http://pras306.github.io/image-detector/',
         codeLink: 'https://github.com/pras306/image-detector'
+    },
+    {
+        title: 'Netflix-Clone',
+        image: NetflixClone,
+        contentTitle: 'Project Highlights',
+        content: <span>
+            <p>Designed interface using React JS and React Hooks</p>
+            <p>Utilized <a rel="noreferrer" target="_blank" href="https://www.themoviedb.org/">TMDB's</a>API to fetch movies data based on the different API endpoints</p>
+            <p>Developed a proxy server to host TMDB's API in order to protect the API keys</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Handled all API requests and responses using Axios</p>
+            <p>Made use of Youtube's API to display the trailers of the selected movies</p>
+            <p>Deployed the site using Github Pages</p>
+        </span>,
+        footerTitle: 'Project Implementation',
+        footerContent: <span>ReactJS, TMDB API, Youtube API, Github Pages</span>,
+        siteLink: 'http://pras306.github.io/netflix-clone/',
+        codeLink: 'https://github.com/pras306/netflix-clone'
     },
     {
         title: 'Video Browser',
