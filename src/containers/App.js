@@ -1,5 +1,6 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Particles from 'react-tsparticles';
+import ReactGA from 'react-ga';
 
 import './App.css';
 import Header from '../components/Header/Header';
@@ -11,12 +12,18 @@ import Contact from './Contact/Contact';
 import Loader from '../components/Loader/Loader';
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
 
+ReactGA.initialize(`${process.env.REACT_APP_GA_MEASUREMENT_ID}`);
+
 const App = () => {
   const [loader, setLoader] = useState(false);
   const about = useRef();
   const work = useRef();
   const skills = useRef();
   const contact = useRef();
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  });
 
   const particleOptions = {
     fpsLimit: 60,
