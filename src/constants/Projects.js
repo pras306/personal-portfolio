@@ -1,4 +1,5 @@
 import ChatbotMessenger from '../assets/images/chatbot_messenger.png';
+import TravelAdvisor from '../assets/images/travel_advisor.png';
 import APIProxyServer from '../assets/images/api_proxy_server.png';
 import FaceDetector from '../assets/images/face_detector.png';
 import NetflixClone from '../assets/images/netflix_clone.png';
@@ -22,6 +23,25 @@ export const PROJECT_DETAILS = [
         footerContent: <span>ReactJS, Redux, React Hooks, NodeJS, ExpressJS, PostgresSQL, Custom Chatbot API developed using Python NLTK, Heroku</span>,
         siteLink: 'https://chat-bot-messenger-app.herokuapp.com/',
         codeLink: 'https://github.com/pras306/chatbot-messenger'
+    },
+    {
+        title: 'Travel Advisor',
+        image: TravelAdvisor,
+        contentTitle: 'Project Highlights',
+        content: <span>
+            <p>Designed web app using React JS and React Hooks</p>
+            <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/apidojo/api/travel-advisor/">Rapid API's Travel Advisor</a> API to gather useful data about the place</p>
+            <p>Made use of <a rel="noreferrer" target="_blank" href="https://rapidapi.com/community/api/open-weather-map/">Rapid API's Open Weather Map</a> API to collect weather information about the place</p>
+            <p>Integrated <a rel="noreferrer" target="_blank" href="https://developers.google.com/maps">Google Maps and Places</a> API display all the relevant information on the Map</p>
+            <p>Developed a proxy server to make requests to Rapid API in order to protect the API keys</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Handled all API requests and responses using Axios</p>
+            <p>Deployed the site using Netlify</p>
+        </span>,
+        footerTitle: 'Project Implementation',
+        footerContent: <span>ReactJS, React Hooks, NodeJS, ExpressJS, Travel Advisor Rapid API, Open Weather Map Rapid API, Google Maps, Heroku, Netlify</span>,
+        siteLink: 'https://travel-guide-2022.netlify.app/',
+        codeLink: 'https://github.com/pras306/travel-advisor'
     },
     {
         title: 'API Proxy Server',
