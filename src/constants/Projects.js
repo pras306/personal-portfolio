@@ -1,4 +1,5 @@
 import ChatbotMessenger from '../assets/images/chatbot_messenger.png';
+import Cryptoverse from '../assets/images/cryptoverse.png';
 import TravelAdvisor from '../assets/images/travel_advisor.png';
 import APIProxyServer from '../assets/images/api_proxy_server.png';
 import FaceDetector from '../assets/images/face_detector.png';
@@ -25,6 +26,41 @@ export const PROJECT_DETAILS = [
         codeLink: 'https://github.com/pras306/chatbot-messenger'
     },
     {
+        title: 'API Proxy Server',
+        image: APIProxyServer,
+        contentTitle: 'Project Highlights',
+        content: <span>
+            <p>Designed a backend proxy server using Node JS, Express JS</p>
+            <p>Main purpose was for hiding all the API keys used in other projects</p>
+            <p>Server is currently hosted in Heroku</p>
+            <p>Refer to the Github documentation of this project to see all the API routes</p>
+            <p>The following API keys are currently hidden in this project - Unsplash API, Clarifai API, Youtube API, TMDB API</p>
+        </span>,
+        footerTitle: 'Project Implementation',
+        footerContent: <span>Node JS, Express JS, Unsplash API, Clarifai API, Youtube API, TMDB API</span>,
+        siteLink: 'https://backend-portfolio-proxy.herokuapp.com/api/v1',
+        codeLink: 'https://github.com/pras306/api-proxy'
+    },
+    {
+        title: 'Cryptoverse',
+        image: Cryptoverse,
+        contentTitle: 'Project Highlights',
+        content: <span>
+            <p>Designed web app using React JS and Redux Toolkit</p>
+            <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/Coinranking/api/coinranking1">Rapid API's Coinranking</a> API to gather all current cryptocurrency related data</p>
+            <p>Made use of <a rel="noreferrer" target="_blank" href="https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1">Rapid API's Bing News Search</a> API to collect relevant news articles about cryptocurrency</p>
+            <p>Implemented interfaces to visually display cryptocurrency price changes using Chart JS</p>
+            <p>Developed a proxy server to make requests to Rapid API in order to protect the API keys</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Handled all API requests and responses using Axios</p>
+            <p>Deployed the site using Netlify</p>
+        </span>,
+        footerTitle: 'Project Implementation',
+        footerContent: <span>ReactJS, Redux Toolkit, NodeJS, ExpressJS, Coinranking Rapid API, Bing News Search Rapid API, Chart JS, Heroku, Netlify</span>,
+        siteLink: 'https://cryptocoins-app.netlify.app',
+        codeLink: 'https://github.com/pras306/cryptoverse'
+    },
+    {
         title: 'Travel Advisor',
         image: TravelAdvisor,
         contentTitle: 'Project Highlights',
@@ -42,22 +78,6 @@ export const PROJECT_DETAILS = [
         footerContent: <span>ReactJS, React Hooks, NodeJS, ExpressJS, Travel Advisor Rapid API, Open Weather Map Rapid API, Google Maps, Heroku, Netlify</span>,
         siteLink: 'https://travel-guide-2022.netlify.app/',
         codeLink: 'https://github.com/pras306/travel-advisor'
-    },
-    {
-        title: 'API Proxy Server',
-        image: APIProxyServer,
-        contentTitle: 'Project Highlights',
-        content: <span>
-            <p>Designed a backend proxy server using Node JS, Express JS</p>
-            <p>Main purpose was for hiding all the API keys used in other projects</p>
-            <p>Server is currently hosted in Heroku</p>
-            <p>Refer to the Github documentation of this project to see all the API routes</p>
-            <p>The following API keys are currently hidden in this project - Unsplash API, Clarifai API, Youtube API, TMDB API</p>
-        </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>Node JS, Express JS, Unsplash API, Clarifai API, Youtube API, TMDB API</span>,
-        siteLink: 'https://backend-portfolio-proxy.herokuapp.com/api/v1',
-        codeLink: 'https://github.com/pras306/api-proxy'
     },
     {
         title: 'Face Detector',
