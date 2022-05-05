@@ -1,6 +1,7 @@
 import ChatbotMessenger from '../assets/images/chatbot_messenger.png';
 import Cryptoverse from '../assets/images/cryptoverse.png';
 import TravelAdvisor from '../assets/images/travel_advisor.png';
+import GPT3Modern from '../assets/images/gpt3_modern.png';
 import APIProxyServer from '../assets/images/api_proxy_server.png';
 import FaceDetector from '../assets/images/face_detector.png';
 import NetflixClone from '../assets/images/netflix_clone.png';
@@ -12,7 +13,6 @@ export const PROJECT_DETAILS = [
     {
         title: 'Chatbot-Messenger',
         image: ChatbotMessenger,
-        contentTitle: 'Project Highlights',
         content: <span>
             <p>Designed web application using React JS, Redux and React Hooks</p>
             <p>Created a backend server using Node JS, Express JS to interact with Postgres SQL DB for storing relevant user data</p>
@@ -20,15 +20,13 @@ export const PROJECT_DETAILS = [
             <p>Developed and trained a simple chatbot that responds to basic queries using Python's NLTK</p>
             <p>Deployed both the chatbot and web app in Heroku</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>ReactJS, Redux, React Hooks, NodeJS, ExpressJS, PostgresSQL, Custom Chatbot API developed using Python NLTK, Heroku</span>,
+        footerLabels: ['React JS', 'Redux', 'React Hooks', 'Node JS', 'Express JS', 'Postgres SQL', 'Custom Chatbot API developed using Python NLTK', 'Heroku'],
         siteLink: 'https://chat-bot-messenger-app.herokuapp.com/',
         codeLink: 'https://github.com/pras306/chatbot-messenger'
     },
     {
         title: 'API Proxy Server',
         image: APIProxyServer,
-        contentTitle: 'Project Highlights',
         content: <span>
             <p>Designed a backend proxy server using Node JS, Express JS</p>
             <p>Main purpose was for hiding all the API keys used in other projects</p>
@@ -36,15 +34,13 @@ export const PROJECT_DETAILS = [
             <p>Refer to the Github documentation of this project to see all the API routes</p>
             <p>The following API keys are currently hidden in this project - Unsplash API, Clarifai API, Youtube API, TMDB API</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>Node JS, Express JS, Unsplash API, Clarifai API, Youtube API, TMDB API</span>,
+        footerLabels: ['Node JS', 'Express JS', 'Unsplash API', 'Clarifai API', 'Youtube API', 'TMDB API', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Rapid API - Coinranking', 'Rapid API - Bing News Search'],
         siteLink: 'https://backend-portfolio-proxy.herokuapp.com/api/v1',
         codeLink: 'https://github.com/pras306/api-proxy'
     },
     {
         title: 'Cryptoverse',
         image: Cryptoverse,
-        contentTitle: 'Project Highlights',
         content: <span>
             <p>Designed web app using React JS and Redux Toolkit</p>
             <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/Coinranking/api/coinranking1">Rapid API's Coinranking</a> API to gather all current cryptocurrency related data</p>
@@ -55,15 +51,13 @@ export const PROJECT_DETAILS = [
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Netlify</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>ReactJS, Redux Toolkit, NodeJS, ExpressJS, Coinranking Rapid API, Bing News Search Rapid API, Chart JS, Heroku, Netlify</span>,
+        footerLabels: ['React JS', 'Redux Toolkit', 'Node JS', 'Express JS', 'Rapid API - Coinranking', 'Rapid API - Bing News Search', 'Heroku', 'Netlify'],
         siteLink: 'https://cryptocoins-app.netlify.app',
         codeLink: 'https://github.com/pras306/cryptoverse'
     },
     {
         title: 'Travel Advisor',
         image: TravelAdvisor,
-        contentTitle: 'Project Highlights',
         content: <span>
             <p>Designed web app using React JS and React Hooks</p>
             <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/apidojo/api/travel-advisor/">Rapid API's Travel Advisor</a> API to gather useful data about the place</p>
@@ -74,15 +68,26 @@ export const PROJECT_DETAILS = [
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Netlify</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>ReactJS, React Hooks, NodeJS, ExpressJS, Travel Advisor Rapid API, Open Weather Map Rapid API, Google Maps, Heroku, Netlify</span>,
+        footerLabels: ['React JS', 'React Hooks', 'Node JS', 'Express JS', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Google Maps', 'Heroku', 'Netlify'],
         siteLink: 'https://travel-guide-2022.netlify.app/',
         codeLink: 'https://github.com/pras306/travel-advisor'
     },
     {
+        title: 'Modern Responsive Website',
+        image: GPT3Modern,
+        content: <span>
+            <p>Developed a responsive interface using React JS</p>
+            <p>Made use of React Icons to enhance site usability</p>
+            <p>Designed the entire website from scratch using custom CSS styles and custom components</p>
+            <p>Deployed the site using Github Pages</p>
+        </span>,
+        footerLabels: ['React JS', 'Github Pages'],
+        siteLink: 'https://pras306.github.io/gpt3-modern/',
+        codeLink: 'https://github.com/pras306/gpt3-modern'
+    },
+    {
         title: 'Face Detector',
         image: FaceDetector,
-        contentTitle: 'Project Highlights',
         content: <span>
             <p>Designed interface using React JS and React Hooks</p>
             <p>Utilized <a rel="noreferrer" target="_blank" href="https://www.clarifai.com/">Clarifai's</a>API to detect faces and predict the closest celebrity lookalikes of submitted images</p>
@@ -92,15 +97,13 @@ export const PROJECT_DETAILS = [
             <p>Applied a lightweight JS library -<a rel="noreferrer" target="_blank" href="https://particles.js.org/">TS Particles</a> to create a JS Particle animation on the web page</p>
             <p>Deployed the site using Github Pages</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>ReactJS, Clarifai API, Github Pages</span>,
+        footerLabels: ['React JS', 'Clariifai API', 'Github Pages'],
         siteLink: 'http://pras306.github.io/image-detector/',
         codeLink: 'https://github.com/pras306/image-detector'
     },
     {
         title: 'Netflix-Clone',
         image: NetflixClone,
-        contentTitle: 'Project Highlights',
         content: <span>
             <p>Designed interface using React JS and React Hooks</p>
             <p>Utilized <a rel="noreferrer" target="_blank" href="https://www.themoviedb.org/">TMDB's</a>API to fetch movies data based on the different API endpoints</p>
@@ -110,15 +113,13 @@ export const PROJECT_DETAILS = [
             <p>Made use of Youtube's API to display the trailers of the selected movies</p>
             <p>Deployed the site using Github Pages</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>ReactJS, TMDB API, Youtube API, Github Pages</span>,
+        footerLabels: ['React JS', 'TMDB API', 'Youtube API', 'Github Pages'],
         siteLink: 'http://pras306.github.io/netflix-clone/',
         codeLink: 'https://github.com/pras306/netflix-clone'
     },
     {
         title: 'Video Browser',
         image: VideoBrowser,
-        contentTitle: 'Project Highlights',
         content:<span>
             <p>Designed interface using React JS - mostly comprised of class based components</p>
             <p>Obtained videos from Youtube by querying their API with a search term</p>
@@ -127,15 +128,13 @@ export const PROJECT_DETAILS = [
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Github Pages</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>ReactJS, Youtube API, Github Pages</span>,
+        footerLabels: ['React JS', 'Youtube API', 'Github Pages'],
         siteLink: 'https://pras306.github.io/video-browser/',
         codeLink: 'https://github.com/pras306/video-browser'
     },
     {
         title: 'Image Browser',
         image: ImageBrowser,
-        contentTitle: 'Project Highlights',
         content: <span>
             <p>Designed interface using React JS - mostly comprised of class based components</p>
             <p>Gathered images from <a rel="noreferrer" target="_blank" href="https://unsplash.com/">Unsplash</a> by querying their API with a search term</p>
@@ -144,15 +143,13 @@ export const PROJECT_DETAILS = [
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Github Pages</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>ReactJS, Unsplash API, Github Pages</span>,
+        footerLabels: ['React JS', 'Unsplash API', 'Github Pages'],
         siteLink: 'https://pras306.github.io/image-browser/',
         codeLink: 'https://github.com/pras306/image-browser'
     },
     {
         title: 'Robofriends',
         image: Robofriends,
-        contentTitle: 'Project Highlights',
         content: <span>
             <p>Designed using React JS and Redux, most of the UI components on this project was build using React's class-based components</p>
             <p>Made use of React's State system and React's Props system</p>
@@ -162,8 +159,7 @@ export const PROJECT_DETAILS = [
             <p>Worked with Tachyons, a CSS toolkit for designing responsive interfaces</p>
             <p>Deployed the site using Github Pages</p>
         </span>,
-        footerTitle: 'Project Implementation',
-        footerContent: <span>ReactJS, Redux, JSON Placeholder API, Robohash API, Github Pages</span>,
+        footerLabels: ['React JS', 'Redux', 'JSON Placeholder API', 'Robohash API', 'Github Pages'],
         siteLink: 'https://pras306.github.io/robofriends/',
         codeLink: 'https://github.com/pras306/robofriends'
     }

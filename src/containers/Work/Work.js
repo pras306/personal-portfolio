@@ -1,19 +1,21 @@
 import React from 'react';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 
 import './Work.css';
-import ImageCard from '../../components/ImageCard/ImageCard';
+// import ImageCard from '../../components/ImageCard/ImageCard';
+import ImageSlider from '../../components/ImageSlider/ImageSlider';
 import { PROJECT_DETAILS } from '../../constants/Projects';
 
 const Work = () => {
-    const renderProjects = PROJECT_DETAILS.map((project) => {
-        return <ImageCard key={uuidv4()} imageSrc={project.image} title={project.title} contentTitle={project.contentTitle} content={project.content} footerTitle={project.footerTitle} footerContent={project.footerContent} siteLink={project.siteLink} codeLink={project.codeLink} />
-    });
+    // const renderProjects = PROJECT_DETAILS.map((project) => {
+    //     return <ImageCard key={uuidv4()} imageSrc={project.image} title={project.title} contentTitle={project.contentTitle} content={project.content} footerTitle={project.footerTitle} footerContent={project.footerContent} siteLink={project.siteLink} codeLink={project.codeLink} />
+    // });
 
 
     return (
         <div className="work">
-            {renderProjects}
+            <ImageSlider sliderData={PROJECT_DETAILS} />
+            {/* {renderProjects} */}
         </div>
     );
 };

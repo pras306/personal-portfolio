@@ -1,40 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './ImageCard.css';
-import Modal from '../Modal/Modal';
 
 const ImageCard = (props) => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    return (
-        <div className="ic">
-            <div className="ic__container">
-                <div className="ic__container__action">
-                    <img className="ic__container__action__image" alt={props.title} src={props.imageSrc} onClick={() => setIsOpen(true)} />
-                    <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-                        <img className="modal__image" alt={props.title} src={props.imageSrc} />
-                    </Modal>
-                    <div className="ic__container__action__buttons">
-                        <a className="ic__container__action__button" rel="noreferrer" target="_blank" href={props.siteLink}>Live Site</a>
-                        <a className="ic__container__action__button" rel="noreferrer" target="_blank" href={props.codeLink}>View Code</a>
-                    </div>
-                </div>
-                <div className="ic__container__view">
-                    <div className="ic__container__view__title">
-                        <span>{props.title}</span>
-                    </div>
-                    <div className="ic__container__view__content">
-                        <h5>{props.contentTitle}</h5>
-                        <React.Fragment>{props.content}</React.Fragment>
-                    </div>
-                    <div className="ic__container__view__footer">
-                        <h5>{props.footerTitle}</h5>
-                        <React.Fragment>{props.footerContent}</React.Fragment>
-                    </div>
-                </div>
-            </div>            
+  return (
+    <div className='image-card'>
+        <h1 className='image-card__title'>{props.title}</h1>
+        <div className='image-card__image_container'>
+            <img src={props.image} alt={props.title} />
         </div>
-    )
-}
+        <div className="image-card__action_buttons">
+            <a className="image-card__action_button" rel="noreferrer" target="_blank" href={props.siteLink}>Live Site</a>
+            <a className="image-card__action_button" rel="noreferrer" target="_blank" href={props.codeLink}>View Code</a>
+        </div>
+        <div className='image-card__content'>
+            <div className='image-card__content-text'>{props.content}</div>
+            <div className='image-card__content-labels'>
+                {props.footerLabels.map((label,idx) => {
+                    return <span key={idx}>{label}</span>
+                })}
+            </div>
+        </div>
+    </div>
+  );
+};
 
-export default ImageCard
+export default ImageCard;

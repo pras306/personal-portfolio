@@ -1,0 +1,40 @@
+.slider {
+    position: relative;
+    width: 100%;
+}
+
+.slider__arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.4s;
+    color: var(--bgc-red);
+}
+
+.slider__arrow:hover {
+    transform: scale(1.5);
+}
+
+.left {
+    left: 32px;
+}
+
+.right {
+    right: 32px;
+}
+
+.slider__image_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 400ms all ease-in-out;
+}
+
+.slider__image {
+    width: 100%;
+    border-radius: 50px;
+    flex-shrink: 0;
+}
