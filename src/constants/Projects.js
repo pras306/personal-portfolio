@@ -1,4 +1,5 @@
 import ChatbotMessenger from '../assets/images/chatbot_messenger.png';
+import VideoChatApp from '../assets/images/video-chat-app.png';
 import Cryptoverse from '../assets/images/cryptoverse.png';
 import TravelAdvisor from '../assets/images/travel_advisor.png';
 import GPT3Modern from '../assets/images/gpt3_modern.png';
@@ -54,6 +55,20 @@ export const PROJECT_DETAILS = [
         footerLabels: ['React JS', 'Redux Toolkit', 'Node JS', 'Express JS', 'Rapid API - Coinranking', 'Rapid API - Bing News Search', 'Heroku', 'Netlify'],
         siteLink: 'https://cryptocoins-app.netlify.app',
         codeLink: 'https://github.com/pras306/cryptoverse'
+    },
+    {
+        title: 'Video Chat Application',
+        image: VideoChatApp,
+        content: <span>
+            <p>Designed web application using React JS, React Hooks, Context API</p>
+            <p>Created a backend server using Node JS, Express JS and Socket IO to handle peer-to-peer video calls</p>
+            <p>Made use of Material UIs components as base for building the web app</p>
+            <p>Developed a peer connection using Simple Peer Package from NPM</p>
+            <p>Deployed both the server and the web app in Heroku</p>
+        </span>,
+        footerLabels: ['React JS', 'React Hooks', 'Context API', 'Node JS', 'Express JS', 'Socket IO', 'Simple Peer', 'Heroku'],
+        siteLink: 'https://video-chatserver-app.herokuapp.com/',
+        codeLink: 'https://github.com/pras306/video-chat-app'
     },
     {
         title: 'Travel Advisor',
