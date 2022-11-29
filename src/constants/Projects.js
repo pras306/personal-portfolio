@@ -31,12 +31,12 @@ export const PROJECT_DETAILS = [
         content: <span>
             <p>Designed a backend proxy server using Node JS, Express JS</p>
             <p>Main purpose was for hiding all the API keys used in other projects</p>
-            <p>Server is currently hosted in Heroku</p>
+            <p>Server is currently hosted in Railway</p>
             <p>Refer to the Github documentation of this project to see all the API routes</p>
             <p>The following API keys are currently hidden in this project - Unsplash API, Clarifai API, Youtube API, TMDB API</p>
         </span>,
         footerLabels: ['Node JS', 'Express JS', 'Unsplash API', 'Clarifai API', 'Youtube API', 'TMDB API', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Rapid API - Coinranking', 'Rapid API - Bing News Search'],
-        siteLink: 'https://backend-portfolio-proxy.herokuapp.com/api/v1',
+        siteLink: 'https://api-proxy-server.up.railway.app/api/v1',
         codeLink: 'https://github.com/pras306/api-proxy'
     },
     {
@@ -48,11 +48,11 @@ export const PROJECT_DETAILS = [
             <p>Made use of <a rel="noreferrer" target="_blank" href="https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1">Rapid API's Bing News Search</a> API to collect relevant news articles about cryptocurrency</p>
             <p>Implemented interfaces to visually display cryptocurrency price changes using Chart JS</p>
             <p>Developed a proxy server to make requests to Rapid API in order to protect the API keys</p>
-            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Railway</p>
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Netlify</p>
         </span>,
-        footerLabels: ['React JS', 'Redux Toolkit', 'Node JS', 'Express JS', 'Rapid API - Coinranking', 'Rapid API - Bing News Search', 'Heroku', 'Netlify'],
+        footerLabels: ['React JS', 'Redux Toolkit', 'Node JS', 'Express JS', 'Rapid API - Coinranking', 'Rapid API - Bing News Search', 'Railway', 'Netlify'],
         siteLink: 'https://cryptocoins-app.netlify.app',
         codeLink: 'https://github.com/pras306/cryptoverse'
     },
@@ -79,11 +79,11 @@ export const PROJECT_DETAILS = [
             <p>Made use of <a rel="noreferrer" target="_blank" href="https://rapidapi.com/community/api/open-weather-map/">Rapid API's Open Weather Map</a> API to collect weather information about the place</p>
             <p>Integrated <a rel="noreferrer" target="_blank" href="https://developers.google.com/maps">Google Maps and Places</a> API display all the relevant information on the Map</p>
             <p>Developed a proxy server to make requests to Rapid API in order to protect the API keys</p>
-            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Railway</p>
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Netlify</p>
         </span>,
-        footerLabels: ['React JS', 'React Hooks', 'Node JS', 'Express JS', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Google Maps', 'Heroku', 'Netlify'],
+        footerLabels: ['React JS', 'React Hooks', 'Node JS', 'Express JS', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Google Maps', 'Railway', 'Netlify'],
         siteLink: 'https://travel-guide-2022.netlify.app/',
         codeLink: 'https://github.com/pras306/travel-advisor'
     },
@@ -107,7 +107,7 @@ export const PROJECT_DETAILS = [
             <p>Designed interface using React JS and React Hooks</p>
             <p>Utilized <a rel="noreferrer" target="_blank" href="https://www.clarifai.com/">Clarifai's</a>API to detect faces and predict the closest celebrity lookalikes of submitted images</p>
             <p>Developed a proxy server to host Clarifai's API in order to protect the API keys of Clarifai</p>
-            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Railway</p>
             <p>Handled all API requests and responses using Axios</p>
             <p>Applied a lightweight JS library -<a rel="noreferrer" target="_blank" href="https://particles.js.org/">TS Particles</a> to create a JS Particle animation on the web page</p>
             <p>Deployed the site using Github Pages</p>
@@ -123,7 +123,7 @@ export const PROJECT_DETAILS = [
             <p>Designed interface using React JS and React Hooks</p>
             <p>Utilized <a rel="noreferrer" target="_blank" href="https://www.themoviedb.org/">TMDB's</a>API to fetch movies data based on the different API endpoints</p>
             <p>Developed a proxy server to host TMDB's API in order to protect the API keys</p>
-            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Railway</p>
             <p>Implemented Lazy Loading to load decrease page load time</p>
             <p>Made use of Youtube's API to display the trailers of the selected movies</p>
             <p>Deployed the site using Github Pages</p>
@@ -139,7 +139,7 @@ export const PROJECT_DETAILS = [
             <p>Designed interface using React JS - mostly comprised of class based components</p>
             <p>Obtained videos from Youtube by querying their API with a search term</p>
             <p>Developed a proxy server to host Youtube's API in order to protect the API keys of Youtube</p>
-            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Railway</p>
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Github Pages</p>
         </span>,
@@ -154,7 +154,7 @@ export const PROJECT_DETAILS = [
             <p>Designed interface using React JS - mostly comprised of class based components</p>
             <p>Gathered images from <a rel="noreferrer" target="_blank" href="https://unsplash.com/">Unsplash</a> by querying their API with a search term</p>
             <p>Developed a proxy server to host Unsplash's API in order to protect the API keys of Unsplash</p>
-            <p>Built the proxy server using Node JS, Express JS and hosted in Heroku</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in Railway</p>
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Github Pages</p>
         </span>,
