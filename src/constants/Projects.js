@@ -36,7 +36,7 @@ export const PROJECT_DETAILS = [
             <p>The following API keys are currently hidden in this project - Unsplash API, Clarifai API, Youtube API, TMDB API</p>
         </span>,
         footerLabels: ['Node JS', 'Express JS', 'Unsplash API', 'Clarifai API', 'Youtube API', 'TMDB API', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Rapid API - Coinranking', 'Rapid API - Bing News Search'],
-        siteLink: 'https://api-proxy-server.up.railway.app/api/v1',
+        siteLink: 'https://api-proxy-server-6xbe.onrender.com/api/v1',
         codeLink: 'https://github.com/pras306/api-proxy'
     },
     {
