@@ -1,4 +1,4 @@
-import ChatbotMessenger from '../assets/images/chatbot_messenger.png';
+import ECommerceApp from '../assets/images/ecommerce_app.png';
 import VideoChatApp from '../assets/images/video-chat-app.png';
 import Cryptoverse from '../assets/images/cryptoverse.png';
 import TravelAdvisor from '../assets/images/travel_advisor.png';
@@ -12,18 +12,20 @@ import Robofriends from '../assets/images/robofriends.png';
 
 export const PROJECT_DETAILS = [
     {
-        title: 'Chatbot-Messenger',
-        image: ChatbotMessenger,
+        title: 'E-Commerce Web App',
+        image: ECommerceApp,
         content: <span>
-            <p>Designed web application using React JS, Redux and React Hooks</p>
-            <p>Created a backend server using Node JS, Express JS to interact with Postgres SQL DB for storing relevant user data</p>
+            <p>Designed web application using React JS, Redux Toolkit and React Hooks</p>
+            <p>Obtained products list from <a rel='noreferrer' target='_blank' href='https://dummyjson.com/'>Dummy JSON</a></p>
             <p>Handled authentication of users, made use of Firebase for Google sign in</p>
-            <p>Developed and trained a simple chatbot that responds to basic queries using Python's NLTK</p>
-            <p>Deployed both the chatbot and web app in Heroku</p>
+            <p>Managed payment simulations using <a rel='noreferrer' target='_blank' href='https://stripe.com/docs/api'>STRIPE API</a></p>
+            <p>Developed a proxy server to make requests to Rapid API in order to protect the API keys</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in <a rel="noreferrer" target="_blank" href='https://render.com/'>Render</a></p>
+            <p>Deployed the site using Netlify</p>
         </span>,
-        footerLabels: ['React JS', 'Redux', 'React Hooks', 'Node JS', 'Express JS', 'Postgres SQL', 'Custom Chatbot API developed using Python NLTK', 'Heroku'],
-        siteLink: 'https://chat-bot-messenger-app.herokuapp.com/',
-        codeLink: 'https://github.com/pras306/chatbot-messenger'
+        footerLabels: ['React JS', 'Redux Toolkit', 'React Hooks', 'Node JS', 'Express JS', 'Render', 'Stripe API', 'Netlify'],
+        siteLink: 'https://dummy-ecommerce-app.netlify.app/',
+        codeLink: 'https://github.com/pras306/ecommerce-app'
     },
     {
         title: 'API Proxy Server',
@@ -33,9 +35,9 @@ export const PROJECT_DETAILS = [
             <p>Main purpose was for hiding all the API keys used in other projects</p>
             <p>Server is currently hosted in <a rel="noreferrer" target="_blank" href='https://render.com/'>Render</a></p>
             <p>Refer to the Github documentation of this project to see all the API routes</p>
-            <p>The following API keys are currently hidden in this project - Unsplash API, Clarifai API, Youtube API, TMDB API</p>
+            <p>The following API keys are currently hidden in this project - Unsplash API, Clarifai API, Youtube API, TMDB API, Stripe API</p>
         </span>,
-        footerLabels: ['Node JS', 'Express JS', 'Unsplash API', 'Clarifai API', 'Youtube API', 'TMDB API', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Rapid API - Coinranking', 'Rapid API - Bing News Search'],
+        footerLabels: ['Node JS', 'Express JS', 'Unsplash API', 'Clarifai API', 'Youtube API', 'TMDB API', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Rapid API - Coinranking', 'Rapid API - Bing News Search', 'Stripe API'],
         siteLink: 'https://api-proxy-server-6xbe.onrender.com/api/v1',
         codeLink: 'https://github.com/pras306/api-proxy'
     },
@@ -48,7 +50,7 @@ export const PROJECT_DETAILS = [
             <p>Made use of <a rel="noreferrer" target="_blank" href="https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1">Rapid API's Bing News Search</a> API to collect relevant news articles about cryptocurrency</p>
             <p>Implemented interfaces to visually display cryptocurrency price changes using Chart JS</p>
             <p>Developed a proxy server to make requests to Rapid API in order to protect the API keys</p>
-            <p>Built the proxy server using Node JS, Express JS and hosted in Railway</p>
+            <p>Built the proxy server using Node JS, Express JS and hosted in <a rel="noreferrer" target="_blank" href='https://render.com/'>Render</a></p>
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Netlify</p>
         </span>,
