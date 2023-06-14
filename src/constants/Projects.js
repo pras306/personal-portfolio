@@ -1,7 +1,7 @@
 import ECommerceApp from '../assets/images/ecommerce_app.png';
 import VideoChatApp from '../assets/images/video-chat-app.png';
 import Cryptoverse from '../assets/images/cryptoverse.png';
-import TravelAdvisor from '../assets/images/travel_advisor.png';
+import SpotifyCharts from '../assets/images/spotify_charts.png';
 import GPT3Modern from '../assets/images/gpt3_modern.png';
 import APIProxyServer from '../assets/images/api_proxy_server.png';
 import FaceDetector from '../assets/images/face_detector.png';
@@ -37,7 +37,7 @@ export const PROJECT_DETAILS = [
             <p>Refer to the Github documentation of this project to see all the API routes</p>
             <p>The following API keys are currently hidden in this project - Unsplash API, Clarifai API, Youtube API, TMDB API, Stripe API</p>
         </span>,
-        footerLabels: ['Node JS', 'Express JS', 'Unsplash API', 'Clarifai API', 'Youtube API', 'TMDB API', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Rapid API - Coinranking', 'Rapid API - Bing News Search', 'Stripe API'],
+        footerLabels: ['Node JS', 'Express JS', 'Unsplash API', 'Clarifai API', 'Youtube API', 'TMDB API', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Rapid API - Coinranking', 'Rapid API - Bing News Search', 'Stripe API', 'Rapid API - Spotify'],
         siteLink: 'https://api-proxy-server-6xbe.onrender.com/api/v1',
         codeLink: 'https://github.com/pras306/api-proxy'
     },
@@ -73,21 +73,21 @@ export const PROJECT_DETAILS = [
         codeLink: 'https://github.com/pras306/video-chat-app'
     },
     {
-        title: 'Travel Advisor',
-        image: TravelAdvisor,
+        title: 'Spotify Charts',
+        image: SpotifyCharts,
         content: <span>
-            <p>Designed web app using React JS and React Hooks</p>
-            <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/apidojo/api/travel-advisor/">Rapid API's Travel Advisor</a> API to gather useful data about the place</p>
-            <p>Made use of <a rel="noreferrer" target="_blank" href="https://rapidapi.com/community/api/open-weather-map/">Rapid API's Open Weather Map</a> API to collect weather information about the place</p>
-            <p>Integrated <a rel="noreferrer" target="_blank" href="https://developers.google.com/maps">Google Maps and Places</a> API display all the relevant information on the Map</p>
+            <p>Designed web app using React JS, React Router and React Hooks</p>
+            <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/airaudoeduardo/api/spotify81">Rapid API's Spotify</a> API to gather relevant data about the top songs, albums and artists</p>
+            <p>Made use of <a rel="noreferrer" target="_blank" href="https://rapidapi.com/DataFanatic/api/spotify-scraper">Rapid API's Spotify Scraper</a> API to collect top charts and artists information from all over the world</p>
+            <p>Integrated <a rel="noreferrer" target="_blank" href="https://rapidapi.com/Glavier/api/spotify23">Rapid API's Spotify</a> API to display all the relevant information about various different artists</p>
             <p>Developed a proxy server to make requests to Rapid API in order to protect the API keys</p>
             <p>Built the proxy server using Node JS, Express JS and hosted in <a rel="noreferrer" target="_blank" href='https://render.com/'>Render</a></p>
             <p>Handled all API requests and responses using Axios</p>
             <p>Deployed the site using Netlify</p>
         </span>,
-        footerLabels: ['React JS', 'React Hooks', 'Node JS', 'Express JS', 'Rapid API - Travel Advisor', 'Rapid API - Open Weather Map', 'Google Maps', 'Render Cloud Hosting', 'Netlify'],
-        siteLink: 'https://travel-guide-2022.netlify.app/',
-        codeLink: 'https://github.com/pras306/travel-advisor'
+        footerLabels: ['React JS', 'React Hooks', 'Node JS', 'Express JS', 'Rapid API - Spotify', 'Rapid API - Spotify Scraper', 'React Router', 'Render Cloud Hosting', 'Netlify'],
+        siteLink: 'https://spotify-charts.netlify.app/',
+        codeLink: 'https://github.com/pras306/spotify-charts'
     },
     {
         title: 'Modern Responsive Website',
