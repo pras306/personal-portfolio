@@ -1,5 +1,5 @@
 import ECommerceApp from '../assets/images/ecommerce_app.png';
-import VideoChatApp from '../assets/images/video-chat-app.png';
+import CarShowcase from '../assets/images/car_showcase.png';
 import Cryptoverse from '../assets/images/cryptoverse.png';
 import SpotifyCharts from '../assets/images/spotify_charts.png';
 import GPT3Modern from '../assets/images/gpt3_modern.png';
@@ -59,18 +59,18 @@ export const PROJECT_DETAILS = [
         codeLink: 'https://github.com/pras306/cryptoverse'
     },
     {
-        title: 'Video Chat Application',
-        image: VideoChatApp,
+        title: 'Car Showcase',
+        image: CarShowcase,
         content: <span>
-            <p>Designed web application using React JS, React Hooks, Context API</p>
-            <p>Created a backend server using Node JS, Express JS and Socket IO to handle peer-to-peer video calls</p>
-            <p>Made use of Material UIs components as base for building the web app</p>
-            <p>Developed a peer connection using Simple Peer Package from NPM</p>
-            <p>Deployed both the server and the web app in Heroku</p>
+            <p>Designed web application using React JS, Next JS, Typescript</p>
+            <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/apininjas/api/cars-by-api-ninjas">Rapid API's Cars</a> API to gather relevant data about the cars</p>
+            <p>Made use of Headless UIs components as base for building the web app</p>
+            <p>Developed both server side and client side rendering for different components</p>
+            <p>Deployed the web app in Vercel</p>
         </span>,
-        footerLabels: ['React JS', 'React Hooks', 'Context API', 'Node JS', 'Express JS', 'Socket IO', 'Simple Peer', 'Heroku'],
-        siteLink: 'https://video-chatserver-app.herokuapp.com/',
-        codeLink: 'https://github.com/pras306/video-chat-app'
+        footerLabels: ['React JS', 'React Hooks', 'Next JS', 'Typescript', 'Rapid API', 'Vercel'],
+        siteLink: 'https://car-showcase-app-one.vercel.app/',
+        codeLink: 'https://github.com/pras306/car-showcase'
     },
     {
         title: 'Spotify Charts',
