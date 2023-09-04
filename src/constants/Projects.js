@@ -1,5 +1,6 @@
 import ECommerceApp from '../assets/images/ecommerce_app.png';
 import CarShowcase from '../assets/images/car_showcase.png';
+import FlexibbleApp from '../assets/images/flexibble_app.png';
 import Cryptoverse from '../assets/images/cryptoverse.png';
 import SpotifyCharts from '../assets/images/spotify_charts.png';
 import GPT3Modern from '../assets/images/gpt3_modern.png';
@@ -11,6 +12,21 @@ import ImageBrowser from '../assets/images/image_browser.png';
 import Robofriends from '../assets/images/robofriends.png';
 
 export const PROJECT_DETAILS = [
+    {
+        title: 'Flexibble App',
+        image: FlexibbleApp,
+        content: <span>
+            <p>Designed web application using React JS, Next JS, Typescript</p>
+            <p>Utilized <a rel="noreferrer" target="_blank" href="https://next-auth.js.org/">Next Auth</a> to authenticate users with Google Provider and JSON Web tokens</p>
+            <p>Made use of <a rel="noreferrer" target="_blank" href="https://grafbase.com/">Grafbase</a> to structure and mutate GraphQL APIs for Users and Projects.</p>
+            <p>Uploaded images for all projects onto <a rel="noreferrer" target="_blank" href="https://cloudinary.com/?&utm_campaign=1329&utm_content=instapagelogocta-selfservetest">Cloudinary</a>.</p>
+            <p>Developed both server side and client side rendering for different components</p>
+            <p>Deployed the web app in Vercel</p>
+        </span>,
+        footerLabels: ['React JS', 'Next JS', 'Typescript', 'Grafbase', 'Vercel', 'Cloudinary', 'Next-Auth'],
+        siteLink: 'https://flexibble-grafbase-app.vercel.app/',
+        codeLink: 'https://github.com/pras306/grafbase_flexibble'
+    },
     {
         title: 'E-Commerce Web App',
         image: ECommerceApp,
@@ -59,20 +75,6 @@ export const PROJECT_DETAILS = [
         codeLink: 'https://github.com/pras306/cryptoverse'
     },
     {
-        title: 'Car Showcase',
-        image: CarShowcase,
-        content: <span>
-            <p>Designed web application using React JS, Next JS, Typescript</p>
-            <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/apininjas/api/cars-by-api-ninjas">Rapid API's Cars</a> API to gather relevant data about the cars</p>
-            <p>Made use of Headless UIs components as base for building the web app</p>
-            <p>Developed both server side and client side rendering for different components</p>
-            <p>Deployed the web app in Vercel</p>
-        </span>,
-        footerLabels: ['React JS', 'React Hooks', 'Next JS', 'Typescript', 'Rapid API', 'Vercel'],
-        siteLink: 'https://car-showcase-app-one.vercel.app/',
-        codeLink: 'https://github.com/pras306/car-showcase'
-    },
-    {
         title: 'Spotify Charts',
         image: SpotifyCharts,
         content: <span>
@@ -88,6 +90,20 @@ export const PROJECT_DETAILS = [
         footerLabels: ['React JS', 'React Hooks', 'Node JS', 'Express JS', 'Rapid API - Spotify', 'Rapid API - Spotify Scraper', 'React Router', 'Render Cloud Hosting', 'Netlify'],
         siteLink: 'https://spotify-charts.netlify.app/',
         codeLink: 'https://github.com/pras306/spotify-charts'
+    },
+    {
+        title: 'Car Showcase',
+        image: CarShowcase,
+        content: <span>
+            <p>Designed web application using React JS, Next JS, Typescript</p>
+            <p>Utilized <a rel="noreferrer" target="_blank" href="https://rapidapi.com/apininjas/api/cars-by-api-ninjas">Rapid API's Cars</a> API to gather relevant data about the cars</p>
+            <p>Made use of Headless UIs components as base for building the web app</p>
+            <p>Developed both server side and client side rendering for different components</p>
+            <p>Deployed the web app in Vercel</p>
+        </span>,
+        footerLabels: ['React JS', 'React Hooks', 'Next JS', 'Typescript', 'Rapid API', 'Vercel'],
+        siteLink: 'https://car-showcase-app-one.vercel.app/',
+        codeLink: 'https://github.com/pras306/car-showcase'
     },
     {
         title: 'Modern Responsive Website',
